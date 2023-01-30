@@ -1,0 +1,95 @@
+@media (max-width: 576px) {
+  .footer section {
+    padding: 15px 16px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .cards {
+    display: flex;
+    gap: 18px;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto min-content;
+    grid-template-areas: 'sect1 sect2 sect3' 'cards sect2 sect3';
+    column-gap: 166px;
+    padding: 25px 105px;
+  }
+
+  .footer h3 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .cards {
+    grid-area: cards;
+    display: flex;
+    align-items: flex-end;
+    gap: 18px;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1230px) {
+  .footer-wrapper {
+    column-gap: 30px;
+    padding: 25px 35px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+  .cards {
+    gap: 5px;
+  }
+
+  .cards img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards img {
+    width: 60px;
+  }
+}
+
+.footer {
+  color: var(--text-color);
+}
+
+.footer h3 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.footer p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.logout-button {
+  background: transparent;
+  border: none;
+}

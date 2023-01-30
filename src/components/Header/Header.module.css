@@ -1,0 +1,77 @@
+@media (max-width: 576px) {
+  .header {
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .header-name {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .username {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .logout-text {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .header {
+    gap: 32px;
+    padding: 0px 105px;
+  }
+
+  .header-name {
+    font-size: 30px;
+    line-height: 91px;
+  }
+
+  .username {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .logout-image {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1230px) {
+  .header {
+    padding: 0px 35px;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.header button {
+  background: transparent;
+  border: none;
+}
+
+.header-name {
+  font-family: CAT Linz;
+  font-weight: normal;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.username {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.button-text {
+  font-family: 'Mulish', sans-serif;
+  color: var(--orange);
+  font-size: 16px;
+}

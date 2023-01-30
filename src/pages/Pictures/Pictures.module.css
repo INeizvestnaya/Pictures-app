@@ -1,0 +1,119 @@
+.pictures-button {
+  background-color: var(--orange);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 90px;
+  border: none;
+  text-transform: uppercase;
+  margin: 20px 16px;
+}
+
+@media (max-width: 576px) {
+  .image-wrapper {
+    padding: 0 16px;
+  }
+
+  .graffiti {
+    width: 40%;
+    left: 20%;
+  }
+
+  .caption {
+    font-size: 42px;
+    line-height: 43px;
+    margin: 20px 16px;
+  }
+
+  .description {
+    font-size: 14px;
+    width: 160px;
+    margin: 0 16px;
+  }
+
+  .pictures-button {
+    padding: 16px;
+    width: calc(100% - 32px);
+  }
+}
+
+@media (min-width: 576px) {
+  .pictures-info {
+    display: grid;
+    padding: 0 105px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'capt img';
+  }
+
+  .caption-wrapper {
+    grid-area: capt;
+  }
+
+  .image-wrapper {
+    grid-area: img;
+  }
+
+  .graffiti {
+    width: 20%;
+    left: 54%;
+  }
+
+  .caption {
+    font-size: 75px;
+    margin: 20px 0px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .pictures-button {
+    padding: 16px 88px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1230px) {
+  .pictures-info {
+    padding: 0 35px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 920px) {
+  .caption {
+    font-size: 40px;
+  }
+
+  .pictures-button {
+    padding: 10px 30px;
+    margin: 5px;
+  }
+}
+
+.content {
+  display: table-row;
+  height: 100%;
+}
+
+.macbook {
+  width: 100%;
+}
+
+.graffiti {
+  position: absolute;
+  top: 5%;
+  transform: rotate(0deg);
+}
+
+.caption {
+  font-family: CAT Linz;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+.description {
+  font-family: 'Mulish', sans-serif;
+  line-height: 22px;
+  color: var(--text-color);
+}

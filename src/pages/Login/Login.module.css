@@ -1,0 +1,28 @@
+@media (max-width: 576px) {
+  .img {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    display: flex;
+  }
+
+  .form-wrapper {
+    width: 70%;
+    background-color: var(--background-color);
+    background-image: url(../../assets/paper-background.png);
+  }
+
+  .img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.wrapper,
+.form-wrapper {
+  height: 100%;
+}

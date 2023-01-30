@@ -1,0 +1,11 @@
+.wrapper {
+  height: 100%;
+  background-color: var(--background-color);
+}
+
+.label {
+  color: var(--text-color);
+  font-size: 30px;
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+}

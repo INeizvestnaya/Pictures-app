@@ -1,0 +1,26 @@
+@media (max-width: 576px) {
+  .footer-info {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-info {
+    font-size: 9px;
+    align-items: center;
+    height: 32px;
+    padding: 0px 105px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1230px) {
+  .footer-info {
+    padding: 0px 35px;
+  }
+}
+
+.footer-info {
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+}

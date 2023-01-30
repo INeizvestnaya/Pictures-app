@@ -1,0 +1,24 @@
+@media (max-width: 576px) {
+  .address-margin {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .sect1 {
+    grid-area: sect1;
+  }
+
+  .sect2 {
+    grid-area: sect2;
+  }
+
+  .sect3 {
+    grid-area: sect3;
+  }
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
